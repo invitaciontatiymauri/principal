@@ -9,8 +9,8 @@ window.BODA = Object.freeze({
   account: '13024056002',
   holder: 'Mauricio Morgenstern',
   alias: '3760586',
-  music: 'assets/music.mp3',
-  musicTitle: 'Stand by Me · Oasis',
+  music: 'assets/music.mp3?v=up-20261101',
+  musicTitle: 'Married Life · Up',
   // WhatsApp y referencia Enersol confirmados por Dani el 30/10/2026.
   // Pin verificado en Google Maps: Emilio Castelar 779, Asunción.
 });
