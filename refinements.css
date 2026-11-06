@@ -66,3 +66,14 @@ body:not(.js-ready) .invitation{visibility:visible;opacity:1}
 #rsvp .rsvp-preview summary{padding:12px 0;min-height:44px;cursor:pointer;font-size:13px}
 #rsvp .btn{font-size:14px;min-height:48px}
 @media(max-width:480px){#rsvp{padding:28px 20px 24px}#rsvp h2{font-size:30px}#rsvp .close{margin-right:-10px}}
+
+/* Álbum de fotos de los invitados (Perspectiva): mismo lenguaje que la confirmación. */
+.photos{text-align:center;padding:33px 0 32px;border-bottom:1px solid #a1a48877}
+.photos>.script{font:29px/1.15 Pinyon,cursive;color:var(--gold);margin:0 auto 14px;max-width:300px}
+.photos-text{font:13px/1.7 Jost,sans-serif;color:var(--muted);max-width:30ch;margin:0 auto 22px;text-wrap:pretty}
+.photos-qr{display:block;width:172px;margin:0 auto;padding:8px;background:#fffdf4;border:1px solid #c9c6b2;box-shadow:0 3px 10px #30372b14}
+.photos-qr svg{display:block;width:100%;height:auto}
+.photos .btn{min-width:230px;margin-top:22px;background:#59674c;border-color:#59674c;color:#fffdf4}
+.photos-note{font:12px/1.7 Jost,sans-serif;color:var(--muted);max-width:32ch;margin:16px auto 0;text-wrap:pretty}
+.photos-qr:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+@media(max-width:700px){.photos{padding:29px 0}.photos>.script{font-size:30px}}
